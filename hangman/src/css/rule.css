@@ -1,0 +1,28 @@
+.rules-heading {
+	font-family: cursive;
+	text-decoration: underline;
+}
+/*changing the font to cursive and underlining the text*/
+
+.rules-sub-heading {
+	font-family: cursive;
+	text-decoration: underline;
+}
+/*changing the font family to cursive and underlining the text*/
+
+.how-to-play {
+	font-family: cursive;
+	font-size: medium;
+}
+/*changing the font family to cursive and font size to medium*/
+
+.rules-conatiner {
+	padding-top: 30px;
+	margin-top: 70px;
+	padding-bottom: 30px;
+	border-style: dashed;
+	background-image: url("https://i.pinimg.com/564x/0b/d1/f6/0bd1f6ff2d3bf986840f1c6a76b1983f.jpg");
+}
+/*adding padding and margin to the top and bottom for spacing*/
+/*adding a dashed border*/
+/*changing the background to an image using an image address*/

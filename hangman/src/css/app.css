@@ -1,0 +1,53 @@
+.restart-button {
+	margin-left: 10px;
+	background-color: red;
+}
+/*adding margin to the left and changing the buttons background color to green*/
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+/*making the height of the split containers 100% and width 50%/50%*/
+/*setting the position to fixed and changing the z-index to 1*/
+/*making the top 0 and adding padding to the top*/
+/*changing the overflow to hidden*/
+
+.results {
+	text-decoration: underline;
+	color: rgb(245, 195, 130);
+}
+/*underlining the text and changing the text color*/
+
+.left {
+	left: 0;
+}
+/*left spacing 0*/
+
+.right {
+	right: 0;
+	width: 70%;
+	margin-top: 30px;
+}
+/*right spacing 0 and width 70% of the split screen*/
+/*margin top 30px*/
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/*setting the position to absolute and adjusting the top and left to 50%*/
+/*aligning text to center*/
+
+.wrong-guesses-heading {
+	color: rgb(249, 196, 126);
+}
+/*changing the color of the heading*/
